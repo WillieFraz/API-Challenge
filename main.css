@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700725459.jpg);
+}
+
+body h1 {
+color: black;
+border: 6px solid black;
+border-style:double;
+background-color: #A45EE9;
+height: 60px;
+width: 99%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: transparent;
+    padding: 0 auto;
+    margin: 4px 4px 4px 4px;
+}
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: 1px black solid;
+    color: black;
+    box-shadow: 4px 1px 4px 4px;
+    border-radius: 4px 9px 4px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    height: 220px;
+    background-color: #A45EE9;
+    padding: 3px;
+}
+
+.two {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border: 2px black solid;
+    color: black;
+    box-shadow: 4px 1px 4px 4px;
+    border-radius: 4px 9px 4px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    height: 220px;
+    background-color: #A45EE9;
+    padding: 3px;
+}
+
+.three {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    border: 2px black solid;
+    color: black;
+    box-shadow: 4px 1px 4px 4px;
+    border-radius: 4px 9px 4px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: #A45EE9;
+    padding: 3px;
+}
+
+.four {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    border: 2px black solid;
+    color: black;
+    box-shadow: 4px 1px 4px 4px;
+    border-radius: 4px 9px 4px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: #A45EE9;
+    padding: 3px;
+}
+
+.five {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+    border: 2px black solid;
+    color: black;
+    box-shadow: 4px 1px 4px 4px;
+    border-radius: 4px 9px 4px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: #A45EE9;
+    height: 120px;
+    padding: 3px;
+}
+
+.six {
+    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+    border: 2px black solid;
+    color: black;
+    box-shadow: 4px 1px 4px 4px;
+    border-radius: 4px 9px 4px 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: #A45EE9;
+    height: 120px;
+    padding: 3px;
+}
+
+ div #image {
+    position: absolute;
+    top: 7rem;
+    left: 45rem;
+    z-index: 1;
+    
+}
+
+div #image:hover {
+    background: url(https://i.pinimg.com/736x/b1/54/dd/b154dd3f42ed5eda7683b4f433ac3e6d.jpg);
+    background-color: black;
+    border-radius: 50%;
+}
+
+#text p {
+    position: relative;
+    top: 230px;
+    left: 230px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 2px 2px;
+    width: 140px;
+    height: 50px;
+    background-color: #A45EE9;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px;
+    
+}
+
+footer {
+    border: black solid 2px;
+}

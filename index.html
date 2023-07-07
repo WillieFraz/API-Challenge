@@ -8,17 +8,29 @@
     <title>Pokemon</title>
 </head>
 <body>
-    <h1>Pokemon: Aegislash</h1>
+    <h1>Pokedex #681: Aegislash</h1>
         <div class="wrapper">
-            <div class="baseInformation">
-                <ul></ul>
+            <div id="one" class="one">Background:</div>
+            <div id="two" class="two">Type:</div>
+            <div id="three" class="three">Abilities:</div>
+            <div id="four" class="four">Attack Form:</div>
+            <div id="five" class="five">Defense Form:</div>
+            <div id="six" class="six">Evolves From:</div>
+            <div>
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/681.png" alt="Aegislash Defense Form" 
+                onclick="switchImage()" id="image"/>
             </div>
-            <div class="abilities"></div>
-            <div class="generation"></div>
-            <div class="bodyTraits"></div>
+
+            <div id="text">
+                <p> click image to change form</p>
+            </div>
+            
         </div>
-
-
     <script src="./script.js"></script>
 </body>
+
+<footer>
+    <p>resource: https://pokeapi.co/ | Other Pokemon | </p>
+
+</footer>
 </html> 
